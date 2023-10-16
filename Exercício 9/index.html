@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Tempo</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Conversor de Tempo</h1>
+    <label for="duracaoSegundos">Digite a duração em segundos:</label>
+    <input type="number" id="duracaoSegundos" placeholder="Digite a duração em segundos" required>
+    <br>
+    <button onclick="converterTempo()">Converter</button>
+    <br>
+    <p>Duração formatada: <span id="tempoFormatado"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

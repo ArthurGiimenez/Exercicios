@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Consumo Médio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Consumo Médio</h1>
+    <label for="distanciaPercorrida">Distância percorrida (em km):</label>
+    <input type="number" step="0.01" id="distanciaPercorrida" placeholder="Digite a distância" required>
+    <br>
+    <label for="combustivelGasto">Combustível gasto (em litros):</label>
+    <input type="number" step="0.01" id="combustivelGasto" placeholder="Digite o combustível gasto" required>
+    <br>
+    <button onclick="calcularConsumoMedio()">Calcular Consumo Médio</button>
+    <br>
+    <p>Consumo médio = <span id="consumoMedio"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

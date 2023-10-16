@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Raízes Quadráticas</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Raízes Quadráticas</h1>
+    <label for="coeficienteA">Coeficiente a:</label>
+    <input type="number" step="0.01" id="coeficienteA" placeholder="Digite o coeficiente a" required>
+    <br>
+    <label for="coeficienteB">Coeficiente b:</label>
+    <input type="number" step="0.01" id="coeficienteB" placeholder="Digite o coeficiente b" required>
+    <br>
+    <label for="coeficienteC">Coeficiente c:</label>
+    <input type="number" step="0.01" id="coeficienteC" placeholder="Digite o coeficiente c" required>
+    <br>
+    <button onclick="calcularRaizes()">Calcular Raízes</button>
+    <br>
+    <p>X1 = <span id="x1"></span></p>
+    <p>X2 = <span id="x2"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

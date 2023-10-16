@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Retângulo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Retângulo</h1>
+    <label for="base">Base do retângulo:</label>
+    <input type="number" step="0.1" id="base" placeholder="Digite a base" required>
+    <br>
+    <label for="altura">Altura do retângulo:</label>
+    <input type="number" step="0.1" id="altura" placeholder="Digite a altura" required>
+    <br>
+    <button onclick="calcularRetangulo()">Calcular</button>
+    <br>
+    <p>ÁREA = <span id="areaRetangulo"></span></p>
+    <p>PERÍMETRO = <span id="perimetroRetangulo"></span></p>
+    <p>DIAGONAL = <span id="diagonalRetangulo"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

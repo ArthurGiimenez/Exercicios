@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Terreno</title>
+    <link rel="stylesheet" href="style.css"
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Terreno</h1>
+    <label for="largura">Largura do terreno:</label>
+    <input type="number" step="0.1" id="largura" placeholder="Digite a largura" required>
+    <br>
+    <label for="comprimento">Comprimento do terreno:</label>
+    <input type="number" step="0.1" id="comprimento" placeholder="Digite o comprimento" required>
+    <br>
+    <label for="valorMetroQuadrado">Valor do metro quadrado:</label>
+    <input type="number" step="0.01" id="valorMetroQuadrado" placeholder="Digite o valor por metro quadrado" required>
+    <br>
+    <button onclick="calcularTerreno()">Calcular</button>
+    <br>
+    <p>Área do terreno: <span id="areaTerreno"></span></p>
+    <p>Preço do terreno: R$ <span id="precoTerreno"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

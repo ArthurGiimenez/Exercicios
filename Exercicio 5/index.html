@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Área de Círculo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Área de Círculo</h1>
+    <label for="raio">Digite o valor do raio do círculo:</label>
+    <input type="number" step="0.01" id="raio" placeholder="Digite o valor do raio" required>
+    <br>
+    <button onclick="calcularAreaCirculo()">Calcular Área</button>
+    <br>
+    <p>ÁREA = <span id="areaCirculo"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

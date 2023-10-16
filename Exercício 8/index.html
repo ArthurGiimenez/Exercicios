@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Áreas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Áreas</h1>
+    <label for="medidaA">Digite a medida A:</label>
+    <input type="number" step="0.01" id="medidaA" placeholder="Digite a medida A" required>
+    <br>
+    <label for="medidaB">Digite a medida B:</label>
+    <input type="number" step="0.01" id="medidaB" placeholder="Digite a medida B" required>
+    <br>
+    <label for="medidaC">Digite a medida C:</label>
+    <input type="number" step="0.01" id="medidaC" placeholder="Digite a medida C" required>
+    <br>
+    <button onclick="calcularAreas()">Calcular Áreas</button>
+    <br>
+    <p>ÁREA DO QUADRADO = <span id="areaQuadrado"></span></p>
+    <p>ÁREA DO TRIÂNGULO = <span id="areaTriangulo"></span></p>
+    <p>ÁREA DO TRAPÉZIO = <span id="areaTrapezio"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

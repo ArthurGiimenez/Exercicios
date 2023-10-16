@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Aumento de Salário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Aumento de Salário</h1>
+    <label for="salario">Digite o salário da pessoa:</label>
+    <input type="number" step="0.01" id="salario" placeholder="Digite o salário" required>
+    <br>
+    <button onclick="calcularAumentoSalario()">Calcular Aumento</button>
+    <br>
+    <p>Novo salário = R$ <span id="novoSalario"></span></p>
+    <p>Aumento = R$ <span id="aumento"></span></p>
+    <p>Porcentagem = <span id="porcentagemAumento"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

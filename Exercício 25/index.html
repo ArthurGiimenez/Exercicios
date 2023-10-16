@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Descubra Seu Signo</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Descubra Seu Signo</h1>
+    <p>Insira a data de nascimento (dia/mês):</p>
+    <input type="number" id="dia" placeholder="Dia" min="1" max="31" required>
+    <input type="number" id="mes" placeholder="Mês" min="1" max="12" required>
+    <br>
+    <button onclick="descobrirSigno()">Descobrir Signo</button>
+    <br>
+    <p>Signo: <span id="signo"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
